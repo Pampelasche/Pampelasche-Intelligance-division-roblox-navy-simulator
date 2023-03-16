@@ -1,0 +1,89 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  header nav ul li {
+    margin-left: 30px;
+  }
+  
+  main {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  main h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  main ul {
+    margin-bottom: 20px;
+  }
+  
+  main li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  main li strong {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
